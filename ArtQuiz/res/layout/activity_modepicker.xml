@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/home" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/classic_butt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Классика" />
+
+        <Button
+            android:id="@+id/museum_butt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Музеи" />
+
+        <Button
+            android:id="@+id/mode1_butt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Стиль-хуиль" />
+
+        <Button
+            android:id="@+id/mode2_butt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Еще какой-то" />
+
+    </LinearLayout>
+
+</LinearLayout>
